@@ -5,7 +5,7 @@ Solution:
 
 I followed two approaches for SvM training. First, SvM with RBF kernel and second, SVM with linear kernel. Although both the approaches performed well (achieved 92% and 94% accuracy), The accuracy achieved using a non-linear kernel (~0.94) is mush higher than that of a linear one (~0.92).
 
-The .py file load the data and subsets 20% of the data for training purpose. Features were scaled and performed grid search with cross-validation for finding the best parameters. Grid search was done for params C and gamma.
+The .ipynb file load the data and subsets 20% of the data for training purpose. Features were scaled and performed grid search with cross-validation for finding the best parameters. Grid search was done for params C and gamma.
 
 
 
